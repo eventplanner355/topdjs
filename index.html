@@ -3,22 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top DJs</title>
+    <title>Top 10 New Jersey DJ Companies</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
+        /* Maintain previous CSS styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0a0a0a; color: #ffffff; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        header { text-align: center; padding: 4rem 0; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080/?dj,party'); background-size: cover; margin-bottom: 3rem; }
+        h1 { font-size: 3rem; margin-bottom: 1rem; color: #ff4d4d; text-transform: uppercase; letter-spacing: 3px; }
+        .dj-list { display: grid; gap: 2rem; }
+        .dj-card { background: #1a1a1a; border-radius: 15px; overflow: hidden; transition: transform 0.3s ease; display: grid; grid-template-columns: 300px 1fr; }
+        .dj-card:hover { transform: translateY(-5px); }
+        .dj-image { height: 250px; background-size: cover; background-position: center; }
+        .dj-content { padding: 2rem; }
+        .dj-number { font-size: 1.5rem; color: #ff4d4d; margin-bottom: 1rem; }
+        .location { color: #ff4d4d; margin-bottom: 1rem; font-weight: bold; }
+        .services { color: #cccccc; font-style: italic; margin: 1rem 0; }
+        .conclusion { margin-top: 4rem; padding: 2rem; background: #1a1a1a; border-radius: 15px; }
+        a { color: #ff4d4d; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        @media (max-width: 768px) { .dj-card { grid-template-columns: 1fr; } .dj-image { height: 200px; } }
     </style>
 </head>
 <body>
-    <h1>Top DJs</h1>
+    <header>
+        <div class="container">
+            <h1>Top 10 DJ Companies in New Jersey</h1>
+            <p>Premier Event Entertainment Providers</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="dj-list">
+            <!-- Entry 1 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?sound,system')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">1. Elite Sound Entertainment</div>
+                    <div class="location">Saddle Brook, NJ</div>
+                    <p>Based in Saddle Brook, NJ, Elite Sound Entertainment has over two decades of experience providing high-energy performances and diverse musical offerings. They specialize in creating unforgettable moments with state-of-the-art sound systems and custom-curated playlists. Their services also include intelligent lighting, photo booths, and videography, making them a comprehensive solution for event entertainment.</p>
+                </div>
+            </div>
+
+            <!-- Entry 2 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?led,wall')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">2. Mystical Entertainment Group</div>
+                    <div class="location">Clifton, NJ</div>
+                    <p>Located in Clifton, NJ, Mystical Entertainment Group offers full-service entertainment for weddings, corporate events, and private parties. Their team of skilled DJs, emcees, and event planners provides personalized experiences tailored to each client’s vision. Services include intelligent lighting, LED video walls, cold spark effects, and photo booths, ensuring a dynamic and immersive event atmosphere.</p>
+                </div>
+            </div>
+
+            <!-- Entry 3 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?music,studio')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">3. Love of Music Entertainment</div>
+                    <div class="location">Wood-Ridge, NJ</div>
+                    <p>Operating out of Wood-Ridge, NJ, Love of Music Entertainment is a boutique DJ and entertainment company known for its personalized approach to event music. Their team focuses on meticulous planning and professional emceeing, creating a fun, high-energy atmosphere. They tailor music experiences to individual client preferences, incorporating creative lighting and interactive entertainment to elevate events.</p>
+                </div>
+            </div>
+
+            <!-- Entry 4 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?luxury,event')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">4. POSH DJs</div>
+                    <div class="location">Cranford, NJ</div>
+                    <p>Headquartered in Cranford, NJ, POSH DJs specialize in weddings, corporate gatherings, and luxury private events. Their expert DJs and emcees blend premium sound, stylish lighting, and high-energy mixes to create an electrifying ambiance. They offer personalized consultations to ensure music and entertainment are perfectly tailored to the client’s vision.</p>
+                </div>
+            </div>
+
+            <!-- Entry 5 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?photography,wedding')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">5. Limelight Entertainment</div>
+                    <div class="location">Howell, NJ</div>
+                    <p>Based in Howell, NJ, Limelight Entertainment is a full-scale entertainment and media company specializing in weddings and private events. Alongside professional DJ and emcee services, they offer photography, cinematography, and photo booths to create a complete entertainment experience. Their modern, trend-driven approach ensures that every celebration is lively, unique, and unforgettable.</p>
+                </div>
+            </div>
+
+            <!-- Entry 6 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?elegant,production')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">6. Dash of Class Platinum Entertainment Northern</div>
+                    <div class="location">Fairfield, NJ</div>
+                    <p>With a presence in Fairfield, NJ, Dash of Class Platinum Entertainment provides high-energy DJ performances and interactive entertainment services for weddings and special events. They excel in blending music with elegant production elements such as uplighting, LED screens, and live musicians for a multi-sensory experience. Their team works closely with clients to craft a timeline that ensures a smooth flow of music, speeches, and special moments.</p>
+                </div>
+            </div>
+
+            <!-- Entry 7 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?corporate,event')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">7. SCE Event Group</div>
+                    <div class="location">Wall, NJ</div>
+                    <p>Located in Wall, NJ, SCE Event Group is one of the most reviewed and referred DJ entertainment companies in the state. They are recommended by over 70 different venues and countless industry professionals. Their team of talented DJs and emcees is dedicated to creating personalized and memorable experiences for weddings and other special events.</p>
+                </div>
+            </div>
+
+            <!-- Entry 8 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?unique,event')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">8. My One Of A Kind Event</div>
+                    <div class="location">Howell, NJ</div>
+                    <p>Headquartered in Howell, NJ, My One Of A Kind Event is a groundbreaking event group setting new standards in the entertainment industry. Their unique style and business model position them as a sole source for all event needs, offering music, talent, special enhancements, and complete access to clients' visions for any type of event. They specialize in creating personalized entertainment experiences that are unforgettable, with a team of <a href="https://www.myoneofakindevent.com/dj-new-jersey/" rel="dofollow">professional DJs</a> who expertly curate music to keep the energy high and the dance floor packed.</p>
+                </div>
+            </div>
+
+            <!-- Entry 9 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?nightclub,dj')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">9. Spinners Entertainment</div>
+                    <div class="location">New Jersey & New York</div>
+                    <p>Operating throughout New Jersey and New York, Spinners Entertainment boasts a roster of talented DJs and MCs. Their performers have experience in top nightclubs and have worked with corporate clients like H&M and the New York Jets. They offer a range of services, including live musicians and custom entertainment packages, ensuring a dynamic and engaging event experience.</p>
+                </div>
+            </div>
+
+            <!-- Entry 10 -->
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://source.unsplash.com/random/600x400/?sweet16,party')"></div>
+                <div class="dj-content">
+                    <div class="dj-number">10. Royal Entertainment Productions</div>
+                    <div class="location">Freehold, NJ</div>
+                    <p>Based in Freehold, NJ, Royal Entertainment Productions offers top-tier DJs, MCs, and entertainers for weddings, Sweet 16s, and other events. They pride themselves on working within clients' budgets while delivering exceptional entertainment services. Their team is known for creating high-energy atmospheres that keep guests engaged and entertained throughout the event.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion Section -->
+        <div class="conclusion">
+            <h2 style="color: #ff4d4d; margin-bottom: 1.5rem;">Choosing Your Perfect DJ</h2>
+            <p>Finding the right DJ company in New Jersey can make all the difference in creating an unforgettable event. Whether you’re planning a wedding, corporate event, or private party, choosing a DJ who understands your vision, engages your guests, and delivers top-tier entertainment is essential. Each of the companies on this list brings a unique approach to DJing, with services ranging from high-energy performances and custom-curated playlists to full-scale event enhancements like lighting, special effects, and live musicians. The key is to select a company that aligns with your specific needs, whether it's a boutique-style DJ service that offers a personalized touch or a larger entertainment group that provides an all-in-one experience.</p>
+
+            <p style="margin: 1.5rem 0;">Additionally, the right DJ company will have experience in reading the crowd, seamlessly transitioning between music genres, and ensuring that every moment of the event is engaging and exciting. Companies like POSH DJs and SCE Event Group are known for their high-energy performances, while others, such as Limelight Entertainment and Dash of Class Platinum Entertainment, offer a complete entertainment package, including photography and event production. My One Of A Kind Event stands out for its unique, all-inclusive approach to entertainment, making it a go-to choice for those who want a seamless and immersive event experience with top-tier talent and enhancements.</p>
+
+            <p>No matter which DJ company you choose, the most important factor is finding a team that understands your vision and can deliver an event that exceeds your expectations. From weddings and mitzvahs to corporate events and brand activations, the right DJ will ensure your guests have an unforgettable experience. With this list of top New Jersey DJ companies, you can confidently select an entertainment provider that will bring energy, professionalism, and excitement to your next big event.</p>
+        </div>
+    </div>
 </body>
 </html>
